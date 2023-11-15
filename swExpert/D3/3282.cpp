@@ -30,11 +30,10 @@ int main(void){
                 else{
                     arr[i][j] = arr[i-1][j];
                 }
-                cout<<"arr[i][j]: "<<arr[i][j]<<"\n";
             }
         }
 
-        //cout<<"#"<<t<<" "<<arr[N][K]<<"\n";
+        cout<<"#"<<t<<" "<<arr[N][K]<<"\n";
 
 
     }
