@@ -9,6 +9,10 @@ int main(void){
         int N, M;
         cin>>N>>M;
 
+        if(M-N < N){
+            N = M-N;
+        }
+
         long long int up = 1 , down = 1;
 
         for(int j=0; j<N; j++){
@@ -16,8 +20,8 @@ int main(void){
             up *= (M-j);
             down *= (j+1);
         }
-        cout<<up<<"\n";
-        cout<<down<<"\n";
+        //cout<<up<<"\n";
+        //cout<<down<<"\n";
         cout<<up/down<<"\n";
         
     }

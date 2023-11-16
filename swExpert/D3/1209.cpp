@@ -3,6 +3,8 @@
 using namespace std;
 
 int main(void){
+    
+    int N; cin>>N;
 
     int arr[100][100];
     int garo=0, sero=0, cross = 0;
