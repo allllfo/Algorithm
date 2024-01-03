@@ -5,9 +5,9 @@ using namespace std;
 //bool compare(pair<int, int> a, pair<int, int> b);
 int main(void){
 
-    int count[1000001]={0,};
     int N; cin>>N;
-    pair<int,int> arr[1000001];
+    pair<int,int> arr[N];
+    int count[N];
     
     
     for(int i =0; i<N; i++){
