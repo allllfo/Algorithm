@@ -30,13 +30,11 @@ int main(void){
                 if(!wordStack.empty()){
                 oldchar=wordStack.top();
                 }
-            }
-            
+            }  
         }
         if(wordStack.empty()){
             result++;
         }
-        
     }
     cout<<result;
 }
